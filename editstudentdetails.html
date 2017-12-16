@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>Edit</title>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<h1 style="color: white">Edit your details<span class="glyphicon glyphicon-edit"></span></h1>
+
+		</div>
+	</nav>
+</head>
+<style type="text/css">
+	.a{
+		margin-top: 110px;
+		margin-right: 780px;
+		margin-left: 30px;
+		margin-bottom: 20px;
+	}
+	label textarea{
+ vertical-align: text-top;
+}
+</style>
+<body>
+   <form class="a" action="/action_page.php">
+  		<div class="form-group">
+		    <label for="Firstname">First Name:</label>
+		    <input type="text" class="form-control" id="studentmail " required="" autofocus="">
+		</div>
+		<div class="form-group">
+		    <label for="Lastname"> Last Name:</label>
+		    <input type="text" class="form-control" id="studentmail" required="">
+		</div>
+		<div class="form-group">
+		    <label for="email">E-mail:</label>
+		    <input type="email" class="form-control" id="studentmail" required="">
+		</div>
+		<div class="form-group" >
+		    <label for="Address">Enter Your Address:
+		    <textarea rows="4" cols="50" name="Address" required="" ></textarea></label>
+		</div>
+		<div class="form-group">
+		    <label for="Phonenumber">Phone Number:</label>
+		    <input type="number" class="form-control" id="studentmail" required="" maxlength="10">
+		</div>
+		<div class="form-group">
+		    <label for="Date of birth">Date of birth:</label>
+		    <input type="Date" class="form-control" id="studentmail" required="" maxlength="10">
+		</div>
+  		<div class="checkbox">
+    		<label><input type="checkbox"> All details are Valid!</label>
+  		</div>
+  		<button type="submit" class="btn btn-default">Submit</button>
+</form> 
+</body>
+</html>
